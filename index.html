@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontes Humanas: O Poder da Empatia e Cooperação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Div principal que centraliza e limita a largura do conteúdo na tela -->
+    <div class="container">
+        
+        <!-- Div do topo da página com o título principal do projeto -->
+        <div class="header">
+            <h1>Cofundando o Futuro: Empatia e Cooperação na Prática</h1>
+        </div>
+
+        <!-- Div de introdução com textos reflexivos sobre o tema -->
+        <div class="content-section">
+            <p>A empatia não é apenas a capacidade de se colocar no lugar do outro, mas sim a disposição voluntária de compreender suas dores sem julgamentos. Quando essa sensibilidade se une à cooperação, transformamos intenções individuais em um ecossistema de apoio mútuo, capaz de resolver os desafios mais complexos da nossa sociedade.</p>
+            <p>Em um mundo hiperconectado, colaborar deixou de ser uma escolha técnica e passou a ser uma necessidade de sobrevivência e evolução coletiva.</p>
+        </div>
+
+        <!-- Div em destaque que organiza os pilares práticos em formato de lista -->
+        <div class="cooperation-box">
+            <p><strong>Como exercitar esses valores no dia a dia:</strong></p>
+            <ul>
+                <li><strong>Escuta Ativa:</strong> Silenciar a mente para ouvir o outro sem planejar a resposta imediatamente.</li>
+                <li><strong>Comunicação Não-Violenta:</strong> Expressar necessidades claras sem agredir ou criar barreiras.</li>
+                <li><strong>Co-criação de Soluções:</strong> Dividir tarefas valorizando a habilidade única de cada integrante do grupo.</li>
+                <li><strong>Suporte Emocional Proativo:</strong> Perceber sinais de esgotamento nos colegas e oferecer ajuda genuína.</li>
+            </ul>
+        </div>
+
+        <!-- Div de rodapé dedicada aos links externos personalizados -->
+        <div class="links-footer">
+            <p>Aprofunde seus conhecimentos sobre o assunto:</p>
+            <a href="https://scielo.br" target="_blank" class="btn-link">Leia Artigos Científicos sobre Altruísmo</a>
+            <a href="https://nonviolentcommunication.com" target="_blank" class="btn-link">Entenda a Comunicação Não-Violenta</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+/* Configurações globais de reset para garantir consistência visual */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do fundo da página com cores suaves e tipografia moderna */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Caixa principal centralizada que simula um cartão elegante */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Cabeçalho com cor verde-esmeralda escuro para passar seriedade e calma */
+.header h1 {
+    color: #1e4d2b;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #8fbc8f;
+    padding-bottom: 10px;
+}
+
+/* Espaçamento e ajuste dos parágrafos de texto */
+.content-section p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Bloco destacado da lista com fundo cinza-esverdeado claro */
+.cooperation-box {
+    background-color: #f0f7f4;
+    padding: 25px;
+    border-left: 5px solid #2e8b57;
+    border-radius: 4px;
+    margin: 30px 0;
+}
+
+.cooperation-box p {
+    margin-bottom: 15px;
+    color: #1e4d2b;
+}
+
+/* Estilização da lista e remoção dos marcadores padrão */
+.cooperation-box ul {
+    list-style-type: none;
+}
+
+/* Customização visual de cada item da lista */
+.cooperation-box li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 20px;
+}
+
+/* Adiciona um marcador customizado verde antes de cada item */
+.cooperation-box li::before {
+    content: "•";
+    color: #2e8b57;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+
+/* Área inferior de links externos */
+.links-footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.links-footer p {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Transformação dos links em botões clicáveis modernos */
+.links-footer a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #2e8b57;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito visual ao passar o mouse por cima dos links */
+.links-footer a:hover {
+    background-color: #1e4d2b;
+}
