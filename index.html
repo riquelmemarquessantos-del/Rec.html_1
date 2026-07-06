@@ -1,111 +1,180 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empatia e Cooperação</title>
-    <style>
-        /* Configurações Gerais do Body */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7f6;
-            color: #333333;
-            line-height: 1.6;
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empatia e Cooperação: Unidos Fazemos a Diferença</title>
 
-        /* Estilização do Título Principal */
-        h1 {
-            color: #2c3e50;
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            text-align: center;
-        }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
-        /* Parágrafo de Introdução */
-        p {
-            max-width: 600px;
-            text-align: center;
-            font-size: 1.1rem;
-            color: #555555;
-            margin-bottom: 30px;
-        }
+body{
+    background:#f5f7fa;
+    color:#222;
+}
 
-        /* Caixa de Conteúdo (Div) */
-        div {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            max-width: 540px;
-            width: 100%;
-            margin-bottom: 30px;
-        }
+header{
+    background:linear-gradient(90deg,#0057b8,#d90429);
+    color:white;
+    text-align:center;
+    padding:35px;
+}
 
-        /* Alinhamento do texto interno da Div */
-        div p {
-            text-align: left;
-            margin-bottom: 20px;
-            font-size: 1rem;
-        }
+header h1{
+    font-size:40px;
+}
 
-        /* Estilização da Lista */
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:30px 0;
+}
 
-        /* Itens da Lista */
-        li {
-            background-color: #e8f4f8;
-            color: #2980b9;
-            margin: 10px 0;
-            padding: 12px 15px;
-            border-radius: 6px;
-            font-weight: bold;
-            border-left: 5px solid #3498db;
-        }
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:25px;
+    border-left:8px solid #0057b8;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
 
-        /* Estilização do Link */
-        a {
-            display: inline-block;
-            color: #ffffff;
-            background-color: #27ae60;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
+.card h2{
+    color:#d90429;
+    margin-bottom:10px;
+}
 
-        /* Efeito ao passar o mouse no Link */
-        a:hover {
-            background-color: #219653;
-        }
-    </style>
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.galeria img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:12px;
+    border:5px solid #0057b8;
+    transition:.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.05);
+    border-color:#d90429;
+}
+
+ul{
+    margin-left:25px;
+    margin-top:10px;
+}
+
+li{
+    margin:8px 0;
+}
+
+a{
+    display:inline-block;
+    margin-top:15px;
+    text-decoration:none;
+    background:#0057b8;
+    color:white;
+    padding:10px 18px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+a:hover{
+    background:#d90429;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0057b8;
+    color:white;
+    margin-top:30px;
+}
+</style>
+
 </head>
+
 <body>
 
-    <h1>Empatia e Cooperação</h1>
-    
-    <p>Construir pontes em vez de muros é o primeiro passo para uma sociedade mais justa, onde o crescimento coletivo se sobrepõe ao individualismo.</p>
+<header>
+<h1>Empatia e Cooperação</h1>
+<p>Pequenas atitudes podem transformar o mundo.</p>
+</header>
 
-    <div>
-        <p>A empatia nos permite enxergar o mundo através dos olhos do outro, enquanto a cooperação une nossas forças para transformar essa percepção em ações de apoio mútuo. Juntas, elas formam a base de três pilares essenciais:</p>
-        
-        <ul>
-            <li>Escuta Ativa: Compreender sem julgar.</li>
-            <li>Apoio Mútuo: Compartilhar desafios e conquistas.</li>
-            <li>Respeito às Diferenças: Valorizar a pluralidade de ideias.</li>
-        </ul>
-    </div>
+<div class="container">
 
-    <a href="https://pt.wikipedia.org/wiki/Empatia" target="_blank">Saiba mais sobre Empatia</a>
+<div class="card">
+<h2>O que é Empatia?</h2>
+
+<p>
+Empatia é a capacidade de compreender os sentimentos das outras pessoas e agir com respeito.
+Quando somos empáticos criamos amizades mais fortes, diminuímos conflitos e ajudamos a construir uma sociedade mais humana.
+</p>
+
+</div>
+
+<div class="card">
+<h2>Como praticar a Cooperação?</h2>
+
+<ul>
+<li>Ouvir as pessoas com atenção.</li>
+<li>Trabalhar em equipe.</li>
+<li>Compartilhar conhecimentos.</li>
+<li>Ajudar quem está com dificuldades.</li>
+<li>Respeitar opiniões diferentes.</li>
+<li>Resolver conflitos através do diálogo.</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>Galeria</h2>
+
+<div class="galeria">
+
+<img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600" alt="Pessoas ajudando">
+
+<img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600" alt="Trabalho em equipe">
+
+<img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600" alt="Cooperação">
+
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600" alt="Amizade">
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Saiba mais</h2>
+
+<p>
+A empatia e a cooperação são essenciais para uma convivência saudável na escola, na família e no trabalho.
+Quando cada pessoa faz sua parte, todos crescem juntos.
+</p>
+
+<a href="https://brasilescola.uol.com.br/sociologia/empatia.htm" target="_blank">
+Leia mais sobre Empatia
+</a>
+
+</div>
+
+</div>
+
+<footer>
+Projeto HTML + CSS | Tema: Empatia e Cooperação
+</footer>
 
 </body>
 </html>
